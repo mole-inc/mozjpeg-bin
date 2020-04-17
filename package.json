@@ -38,9 +38,12 @@
 		"optimize"
 	],
 	"dependencies": {
+		"@sindresorhus/is": "^2.1.0",
 		"bin-build": "^3.0.0",
-		"@mole-inc/bin-wrapper": "^5.0.0",
-		"logalot": "^2.1.0"
+		"bin-version-check": "^4.0.0",
+		"@mole-inc/bin-wrapper": "^6.0.0",
+		"logalot": "^2.1.0",
+		"which": "^2.0.2"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^8.3.5",
