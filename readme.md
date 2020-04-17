@@ -5,8 +5,8 @@
 You probably want [`imagemin-mozjpeg`](https://github.com/mole-inc/imagemin-mozjpeg) instead.
 
 
-[![Downloads](https://badgen.net/npm/dm/@mole-inc/mozjpeg-bin)](https://www.npmjs.com/package/@mole-inc/mozjpeg-bin)
-[![Version](https://badgen.net/npm/v/@mole-inc/mozjpeg-bin)](https://www.npmjs.com/package/@mole-inc/mozjpeg-bin)
+[![Downloads](https://badgen.net/npm/dm/@mole-inc/mozjpeg)](https://www.npmjs.com/package/@mole-inc/mozjpeg)
+[![Version](https://badgen.net/npm/v/@mole-inc/mozjpeg)](https://www.npmjs.com/package/@mole-inc/mozjpeg)
 
 ## Install
 
