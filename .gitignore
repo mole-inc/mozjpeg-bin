@@ -2,3 +2,5 @@ node_modules
 test/tmp
 vendor/cjpeg*
 yarn.lock
+.nyc_output/
+coverage/

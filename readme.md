@@ -1,14 +1,14 @@
-# mozjpeg-bin [![Build Status](https://travis-ci.org/imagemin/mozjpeg-bin.svg?branch=master)](http://travis-ci.org/imagemin/mozjpeg-bin)
+# mozjpeg-bin ![Node CI](https://github.com/mole-inc/mozjpeg-bin/workflows/Node%20CI/badge.svg)
 
 > [mozjpeg](https://github.com/mozilla/mozjpeg) is a production-quality JPEG encoder that improves compression while maintaining compatibility with the vast majority of deployed decoders
 
-You probably want [`imagemin-mozjpeg`](https://github.com/imagemin/imagemin-mozjpeg) instead.
+You probably want [`imagemin-mozjpeg`](https://github.com/mole-inc/imagemin-mozjpeg) instead.
 
 
 ## Install
 
 ```
-$ npm install mozjpeg
+$ npm install @mole-inc/mozjpeg
 ```
 
 
@@ -16,7 +16,7 @@ $ npm install mozjpeg
 
 ```js
 const {execFile} = require('child_process');
-const mozjpeg = require('mozjpeg');
+const mozjpeg = require('@mole-inc/mozjpeg');
 
 execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 	console.log('Image minified!');
@@ -27,7 +27,7 @@ execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 ## CLI
 
 ```
-$ npm install --global mozjpeg
+$ npm install --global @mole-inc/mozjpeg
 ```
 
 ```
@@ -37,4 +37,6 @@ $ mozjpeg --help
 
 ## License
 
-MIT © [Imagemin](https://github.com/imagemin)
+This is a fork of [imagemin/mozjpeg-bin](https://github.com/imagemin/mozjpeg-bin) licensed under the MIT License.
+
+see LICENSE file and vendor/mozjpeg-license.txt file.
