@@ -12,7 +12,7 @@ const mozjpeg = require('..');
 
 const jobs = os.cpus().length;
 
-if (process.platform !== 'win32') {
+if (process.platform !== 'win32' && !process.env.CI) {
 	test('rebuild the mozjpeg binaries', async t => {
 		const temporary = tempy.directory();
 		const cfg = [
