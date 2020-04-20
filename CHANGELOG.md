@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.0.2](https://github.com/mole-inc/mozjpeg-bin/compare/v7.0.1...v7.0.2) (2020-04-20)
+
+
+### Bug Fixes
+
+* fix install error ([9661fe3](https://github.com/mole-inc/mozjpeg-bin/commit/9661fe393e31306de97304ec5092175ed2ed6f17))
+
 ### [7.0.1](https://github.com/mole-inc/mozjpeg-bin/compare/v7.0.0...v7.0.1) (2020-04-17)
 
 
