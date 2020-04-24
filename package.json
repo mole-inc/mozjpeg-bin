@@ -1,6 +1,6 @@
 {
 	"name": "@mole-inc/mozjpeg",
-	"version": "7.0.2",
+	"version": "7.1.0",
 	"description": "mozjpeg wrapper that makes it seamlessly",
 	"license": "MIT",
 	"repository": {
