@@ -7,6 +7,8 @@ You probably want [`imagemin-mozjpeg`](https://github.com/mole-inc/imagemin-mozj
 
 [![Downloads](https://badgen.net/npm/dm/@mole-inc/mozjpeg)](https://www.npmjs.com/package/@mole-inc/mozjpeg)
 [![Version](https://badgen.net/npm/v/@mole-inc/mozjpeg)](https://www.npmjs.com/package/@mole-inc/mozjpeg)
+[![codecov](https://codecov.io/gh/mole-inc/mozjpeg-bin/branch/master/graph/badge.svg)](https://codecov.io/gh/mole-inc/mozjpeg-bin)
+
 
 ## Install
 
@@ -42,4 +44,4 @@ $ mozjpeg --help
 
 This is a fork of [imagemin/mozjpeg-bin](https://github.com/imagemin/mozjpeg-bin) licensed under the MIT License.
 
-see LICENSE file and vendor/mozjpeg-license.txt file.
+see license file and vendor/mozjpeg-license.txt file.
