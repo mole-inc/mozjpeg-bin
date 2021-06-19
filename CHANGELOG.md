@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.2](https://github.com/mole-inc/mozjpeg-bin/compare/v7.1.1...v7.1.2) (2021-06-19)
+
 ### [7.1.1](https://github.com/mole-inc/mozjpeg-bin/compare/v7.1.0...v7.1.1) (2020-04-30)
 
 
