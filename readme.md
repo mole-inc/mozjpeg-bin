@@ -1,4 +1,4 @@
-# mozjpeg-bin ![Node CI](https://github.com/mole-inc/mozjpeg-bin/workflows/Node%20CI/badge.svg)
+# mozjpeg-bin [![Node CI](https://github.com/mole-inc/mozjpeg-bin/actions/workflows/nodejs.yml/badge.svg)](https://github.com/mole-inc/mozjpeg-bin/actions/workflows/nodejs.yml)
 
 > [mozjpeg](https://github.com/mozilla/mozjpeg) is a production-quality JPEG encoder that improves compression while maintaining compatibility with the vast majority of deployed decoders
 
@@ -20,8 +20,8 @@ $ npm install @mole-inc/mozjpeg
 ## Usage
 
 ```js
-const {execFile} = require('child_process');
-const mozjpeg = require('@mole-inc/mozjpeg');
+import {execFile} from 'child_process';
+import mozjpeg from '@mole-inc/mozjpeg';
 
 execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 	console.log('Image minified!');
