@@ -1,11 +1,14 @@
-'use strict';
-const path = require('path');
-const test = require('ava');
-const execa = require('execa');
-const tempy = require('tempy');
-const binCheck = require('bin-check');
-const compareSize = require('compare-size');
-const mozjpeg = require('..');
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import test from 'ava';
+import execa from 'execa';
+import tempy from 'tempy';
+import binCheck from 'bin-check';
+import compareSize from 'compare-size';
+import mozjpeg from '../lib/index.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /* Compile test
 const jobs = os.cpus().length;

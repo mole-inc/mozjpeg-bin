@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const {spawn} = require('child_process');
-const mozjpeg = require('.');
+import {spawn} from 'node:child_process';
+import mozjpeg from './lib/index.js';
 
 const input = process.argv.slice(2);
 
